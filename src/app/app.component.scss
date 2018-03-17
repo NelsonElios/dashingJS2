@@ -1,0 +1,9 @@
+@import "~sass/variables";
+@import "~bourbon/core/bourbon";
+
+h1 {
+
+color: $h1-text-default-color;
+background-color:shade(#ffbb52, 60%);
+@include border-top-radius(4px); 
+}
